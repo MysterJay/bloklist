@@ -9,8 +9,7 @@ www.cbssports.com##.EmbedVideoPlayerContainer
 ! 2021-03-05 http://rc85wirings.yenpancane.jeanjaures37.fr
 rc85wirings.yenpancane.jeanjaures37.fr##.show.fade.modal
 
-google.*##.xpdopen:has-text(Featured snippet):nth-ancestor(2)
- 
+
 google.*##.kp-blk:has-text(People also ask)
 
 www.cbssports.com##.EmbedVideoPlayerContainer:has(.enable-watch-and-read):remove()
