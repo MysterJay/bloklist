@@ -58,5 +58,3 @@ facebook.com##[role="feed"] span[id] a[href^="/ads/about/"]:upward([role="feed"]
 
 
 
-
-
