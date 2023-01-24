@@ -29,31 +29,10 @@ google.*##a[href*=".pinterest."]:upward(1)
 
 
 youtube.com##ytd-search [overlay-style="SHORTS"]:upward(ytd-video-renderer)
+youtube.com##tp-yt-paper-tab:nth-of-type(3):has-text(Shorts)
+youtube.com##ytd-comment-thread-renderer #paid-comment-chip:not([hidden]):upward(ytd-comment-thread-renderer)
+youtube.com##ytd-channel-video-player-renderer:remove()
 
-
-! FB Sponsored posts - language-neutral solution / TEST version (dot selection) / Remove the `:style()` ending if no false positives found.
-facebook.com##[role="feed"] span[id] a[href="#"]:not(:has-text(/(\s|\d|^$)/)):upward([role="feed"]>div) 
-! The 2 lines below are supplementary to the one above, but might be needed to make it work:
-facebook.com##[role="feed"] span[id] a[href="#"] :matches-css(display: none):remove()
-facebook.com##[role="feed"] span[id] a[href="#"] :matches-css(position: absolute):remove()
-
-
-! FB Sponsored posts - language-neutral solution / TEST version (dot selection) / Remove the `:style()` ending if no false positives found.
-facebook.com##[role="feed"] span[id] a[href="#"]:not(:has-text(/(\s|\d|^$)/)):upward([role="feed"]>div)
-! The 2 lines below are supplementary to the one above, but might be needed to make it work:
-facebook.com##[role="feed"] span[id] a[href="#"] :matches-css(display: none):remove()
-facebook.com##[role="feed"] span[id] a[href="#"] :matches-css(position: absolute):remove()
-
-
-! The "Paid for by" type of sponsored post:
-facebook.com##[role="feed"] span[id]>[role=button]:has-text(/^Sponsored|Paid for by/):upward([role="feed"]>div)
-! Probably unnecessary, but you can also try:
-facebook.com##[role="feed"] span[id] a[href^="/ads/about/"]:upward([role="feed"]>div)
-
-! The "Paid for by" type of sponsored post:
-facebook.com##[role="feed"] span[id]>[role=button]:has-text(/^Sponsored|Paid for by/):upward([role="feed"]>div)
-! Probably unnecessary, but you can also try:
-facebook.com##[role="feed"] span[id] a[href^="/ads/about/"]:upward([role="feed"]>div)
 
 
 
