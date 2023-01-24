@@ -6,17 +6,30 @@
 *.amazon.com##.dv-web-live-events-streaming-widget.lsw-card._dv-web-live-events-streaming-widget_style_lswCard__1MNYE.a-cardui
 
 
-! 2021-02-27 https://www.cbssports.com
-www.cbssports.com##.EmbedVideoPlayerContainer
-www.cbssports.com##.EmbedVideoPlayerContainer:has(.enable-watch-and-read):remove()
+! 2022-09-02 https://sports.yahoo.com
+sports.yahoo.com##.caas-yvideo-elem.caas-cover.caas-hero.yvideo.caas-yvideo-wrapper
 
  
 
 
+! 2021-02-27 https://www.cbssports.com
+www.cbssports.com##.EmbedVideoPlayerContainer
+www.cbssports.com##.EmbedVideoPlayerContainer:has(.enable-watch-and-read):remove()
+
+
+google.*###rso > div:has(div.related-question-pair)
+google.*###botstuff #bres
+google.*###rso div.g div[jscontroller]
+google.*##div.isv-r[data-rfg]
+google.*###footcnt > #fbarcnt
 google.*##.kp-blk:has-text(People also ask)
+google.*##.g:has(a[href*=".pinterest."])
+google.*##a[href*=".pinterest."]:upward(1)
 
 
-www.google.com##[data-it="rq"]
+
+youtube.com##ytd-search [overlay-style="SHORTS"]:upward(ytd-video-renderer)
+
 
 ! FB Sponsored posts - language-neutral solution / TEST version (dot selection) / Remove the `:style()` ending if no false positives found.
 facebook.com##[role="feed"] span[id] a[href="#"]:not(:has-text(/(\s|\d|^$)/)):upward([role="feed"]>div) 
@@ -37,47 +50,13 @@ facebook.com##[role="feed"] span[id]>[role=button]:has-text(/^Sponsored|Paid for
 ! Probably unnecessary, but you can also try:
 facebook.com##[role="feed"] span[id] a[href^="/ads/about/"]:upward([role="feed"]>div)
 
-google.*##.g:has(a[href*=".pinterest."])
-google.*##a[href*=".pinterest."]:upward(1)
-
-! 2022-09-02 https://sports.yahoo.com
-sports.yahoo.com##.caas-yvideo-elem.caas-cover.caas-hero.yvideo.caas-yvideo-wrapper
-
- 
-
-
 ! The "Paid for by" type of sponsored post:
 facebook.com##[role="feed"] span[id]>[role=button]:has-text(/^Sponsored|Paid for by/):upward([role="feed"]>div)
 ! Probably unnecessary, but you can also try:
 facebook.com##[role="feed"] span[id] a[href^="/ads/about/"]:upward([role="feed"]>div)
 
-google.*###rso > div:has(div.related-question-pair)
-google.*###botstuff #bres
-google.*###rso div.g div[jscontroller]
-google.*##div.isv-r[data-rfg]
-google.*###footcnt > #fbarcnt
 
 
 
 
 
-#Youtube shorts
-#www.youtube.com###guide-content #endpoint[title="Shorts"]:upward(ytd-guide-entry-renderer)
-#www.youtube.com###items #endpoint[title="Shorts"]:upward(ytd-mini-guide-entry-renderer)
-#www.youtube.com##ytd-browse #dismissible ytd-rich-grid-slim-media[is-short]:upward(ytd-rich-section-renderer)
-#www.youtube.com##ytd-browse ytd-grid-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))
-#www.youtube.com##ytd-browse ytd-rich-item-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))
-#www.youtube.com##ytd-search ytd-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))
-#www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))
-#www.youtube.com##ytd-browse ytd-grid-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
-#www.youtube.com##ytd-browse ytd-rich-item-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
-#www.youtube.com##ytd-search ytd-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
-#www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
-#www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"]:upward(ytd-item-section-renderer)
-#m.youtube.com##ytm-reel-shelf-renderer
-#m.youtube.com##ytm-pivot-bar-renderer div.pivot-shorts:upward(ytm-pivot-bar-item-renderer)
-#m.youtube.com##ytm-browse ytm-rich-item-renderer:has(ytm-thumbnail-overlay-time-status-renderer span:has-text(/^(0:\d\d|1:0\d)$/))
-#m.youtube.com##ytm-browse ytm-item-section-renderer ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"])
-#m.youtube.com##ytm-browse ytm-item-section-renderer ytm-compact-video-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"])
-#m.youtube.com##ytm-search ytm-compact-video-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"])
-#m.youtube.com##ytm-single-column-watch-next-results-renderer ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-status-renderer span:has-text(/^(0:\d\d|1:0\d)$/))
