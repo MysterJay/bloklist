@@ -15,14 +15,7 @@ sports.yahoo.com##.caas-yvideo-elem.caas-cover.caas-hero.yvideo.caas-yvideo-wrap
 ! 2021-02-27 https://www.cbssports.com
 www.cbssports.com##.EmbedVideoPlayerContainer
 www.cbssports.com##.EmbedVideoPlayerContainer:has(.enable-watch-and-read):remove()
-
-
-google.*###rso > div:has(div.related-question-pair)
-google.*###botstuff #bres
-google.*###rso div.g div[jscontroller]
-google.*##div.isv-r[data-rfg]
-google.*###footcnt > #fbarcnt
-google.*##.kp-blk:has-text(People also ask)
+ 
 google.*##.g:has(a[href*=".pinterest."])
 google.*##a[href*=".pinterest."]:upward(1)
 
