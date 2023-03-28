@@ -40,6 +40,11 @@ www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-grid-video-rendere
 ! YT Subscriptions Hide Shorts - List View
 www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer [overlay-style="SHORTS"]:upward(ytd-item-section-renderer)
 
+www.google.*###rso:has(> div:nth-of-type(6)) > div:has(div.related-question-pair)
+www.google.*###kp-wp-tab-overview > div:has(div.related-question-pair)
+www.google.*###botstuff #bres
+www.google.*###rso div.g div[jscontroller][id^="eob_"]
+www.google.*##div.isv-r[data-rfg]
 
 
 
