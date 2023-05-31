@@ -19,7 +19,8 @@ www.ajc.com###c-blocker-overlay
 ! 2022-09-02 https://sports.yahoo.com
 sports.yahoo.com##.caas-yvideo-elem.caas-cover.caas-hero.yvideo.caas-yvideo-wrapper
 
- 
+www.reddit.com##.access-required.reportbtn
+www.reddit.com##.give-gold-button
 
 
 ! 2021-02-27 https://www.cbssports.com
