@@ -48,4 +48,26 @@ www.google.*###rso div.g div[jscontroller][id^="eob_"]
 www.google.*##div.isv-r[data-rfg]
 
 
+! YT Subscriptions Hide Shorts - Grid View
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-grid-video-renderer [overlay-style="SHORTS"]:upward(ytd-grid-video-renderer)
+! YT Subscriptions Hide Shorts - List View
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer [overlay-style="SHORTS"]:upward(ytd-item-section-renderer)
+
+www.google.*###rso:has(> div:nth-of-type(6)) > div:has(div.related-question-pair)
+www.google.*###kp-wp-tab-overview > div:has(div.related-question-pair)
+www.google.*###botstuff #bres
+www.google.*###rso div.g div[jscontroller][id^="eob_"]
+www.google.*##div.isv-r[data-rfg]
+
+
+youtube.com##.ytp-ce-covering-overlay
+youtube.com##.ytp-ce-element-shadow
+youtube.com##.ytp-ce-covering-image
+youtube.com##.ytp-ce-expanding-image
+youtube.com##.ytp-ce-element.ytp-ce-video.ytp-ce-element-show
+youtube.com##.ytp-ce-element.ytp-ce-channel.ytp-ce-channel-this
+
+! 2023-06-08 https://www.amazon.com
+www.amazon.com###pageContent > .celwidget
+
 
