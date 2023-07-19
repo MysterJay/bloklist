@@ -30,7 +30,7 @@ www.cbssports.com##.EmbedVideoPlayerContainer:has(.enable-watch-and-read):remove
 google.*##.g:has(a[href*=".pinterest."])
 google.*##a[href*=".pinterest."]:upward(1)
 
-
+youtube.com###content > .ytd-rich-section-renderer.style-scope
 
 youtube.com##ytd-search [overlay-style="SHORTS"]:upward(ytd-video-renderer)
 youtube.com##tp-yt-paper-tab:nth-of-type(3):has-text(Shorts)
