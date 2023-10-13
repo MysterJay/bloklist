@@ -1,7 +1,12 @@
-
-
 bing.com##.sprs-container
-bing.com##.slide-in.b_widgetContainer
+ bing.com##.slide-in.b_widgetContainer
+
+! 2023-09-22 https://www.bing.com
+www.bing.com###b_syd_supermax
+
+! 2023-10-10 https://www.amazon.com
+www.amazon.com###valuePick_feature_div
+
  
 
 
