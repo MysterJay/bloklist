@@ -77,4 +77,21 @@ www.google.*##div.isv-r[data-rfg]
 ! 2023-06-08 https://www.amazon.com
 www.amazon.com###pageContent > .celwidget
 
+www.youtube.com##.ytp-ce-element
+
+www.youtube.com##.ytp-cards-teaser
+
+! 2023-11-12 https://www.centredaily.com
+www.centredaily.com##.datawall_survey_modal
+www.centredaily.com###ymovrly
+
+! 2023-12-04 https://www.amazon.com
+www.amazon.com##div#similarities_feature_div.celwidget:nth-of-type(15)
+
+! 2023-12-07 https://www.amazon.com
+www.amazon.com##div.celwidget.sw-card-container.sw-recommendations-row.a-section:nth-of-type(3)
+
+! 2023-12-10 https://www.amazon.com
+www.amazon.com##.DesktopFlexBannerLayout-module__playerContainer_2HbrRwvaNDiMaPFlNde7S8
+
 
