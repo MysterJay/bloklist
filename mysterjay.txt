@@ -7,8 +7,10 @@ www.bing.com###b_syd_supermax
 ! 2023-10-10 https://www.amazon.com
 www.amazon.com###valuePick_feature_div
 
- 
+||accounts.google.com/gsi/*$xhr,script,3p
 
+! 2024-05-01 https://www.amazon.com
+www.amazon.com##.fresh-shoveler.aui-desktop.product-shoveler.card-lite.shogun-widget.a-spacing-none.a-section
 
 #JALOPPY
 ! 2021-02-16 https://smile.amazon.com
