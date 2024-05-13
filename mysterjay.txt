@@ -1,3 +1,6 @@
+youtube.com##ytd-compact-video-renderer:has(#progress[style*="width: 100%;"])
+www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer:has(#progress[style*="width: 100%;"])
+
 bing.com##.sprs-container
  bing.com##.slide-in.b_widgetContainer
 
