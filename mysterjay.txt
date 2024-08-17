@@ -10,7 +10,7 @@ www.amazon.com###nav_link_allhealthingress > span
 ! Aug 9, 2024 https://www.fidelity.com
 www.fidelity.com##.scl-hero--msg-vertical-center.remove-vertical-border.homepage-logout.homepage-logged-decisiontree.login-widget-homepage--container > .scl-button--primary-open-account.scl-button--primary.scl-button-component.login-widget-homepage--cta
 
-
+www.ajc.com##+js(rc, story-paygate_placeholder, , stay)
 
 
 
