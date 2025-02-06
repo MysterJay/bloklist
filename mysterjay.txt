@@ -1,3 +1,35 @@
+! 2024-01-05 https://xhamster.com
+xhamster.com###credential_picker_container
+
+! Sep 19, 2024 https://www.amazon.com
+www.amazon.com###ctyp-upsell-base
+
+! Sep 20, 2024 https://www.amazon.com
+www.amazon.com##.nav-flyout.nav-prime-tt
+www.amazon.com##.a-box.search-risk-container
+
+! Sep 21, 2024 https://www.amazon.com
+www.amazon.com##.risk-banner-container
+
+! Sep 22, 2024 https://www.espn.com
+www.espn.com##.espn-video-player-0-wrapper
+
+! Sep 22, 2024 https://www.amazon.com
+www.amazon.com###risk-container
+
+! Sep 28, 2024 https://www.amazon.com
+www.amazon.com##.risk-banner-container
+
+! Oct 12, 2024 https://ge-map-overlays.appspot.com
+ge-map-overlays.appspot.com###modal > h1
+ge-map-overlays.appspot.com###modal
+
+! Feb 1, 2025 https://historicaerials.com
+historicaerials.com###user-modal
+
+! Feb 3, 2025 https://www.amazon.com
+www.amazon.com##.amazonlive-widget-padding
+
 
 
 ! 2024-11-15   make news more enjoyable
